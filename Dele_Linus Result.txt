@@ -1,0 +1,82 @@
+(base) C:\Users\USER\Desktop\Datasets\Capstone Project\Explore US Bikeshare Data>python bikeshare_2.py
+Hello! Let's explore some US bikeshare data!
+Would you like to see data for Chicago, New York City, or Washington?
+new york city
+Would you like to filter the data by month, day or not at all? Type "none" for no time filter.
+day
+Which day? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday? Please type out the full day name.
+friday
+----------------------------------------
+
+Calculating The Most Frequent Times of Travel...
+
+The most common month is June with the count of 13413.
+
+The most common day of week is Friday with the count of 44664.
+
+The most common start hour is 17H with the count of 4701.
+
+
+This took 0.16300058364868164 seconds.
+
+----------------------------------------
+
+Calculating The Most Popular Stations and Trip...
+
+The most commonly used start station is Pershing Square North with the count of 509.
+
+The most commonly used end station is Pershing Square North with the count of 503.
+
+The most frequent combination of start station and end station trip is E 7 St & Avenue A - Cooper Square & E 7 St with the count of 37.
+
+
+This took 0.3719749450683594 seconds.
+----------------------------------------
+
+Calculating Trip Duration...
+
+The total travel time is 439 days 6 hours 40 minutes 54 seconds.
+
+The mean travel time is 0 days 0 hours 14 minutes 9 seconds.
+
+
+This took 0.0 seconds.
+----------------------------------------
+
+Calculating User Stats...
+
+            Count
+User Type
+Subscriber  40893
+Customer     3681
+
+         Count
+Gender
+Male    31404
+Female   9616
+The earliest year of birth is 1885.
+
+The most recent year of birth is 2001.
+
+The most common year of birth is 1985 with the count of 1639.
+
+
+This took 0.1599886417388916 seconds.
+----------------------------------------
+would you like to view the first ten rows of the data? (yes/no)yes
+             Start Time            End Time  Trip Duration             Start Station               End Station   User Type  Gender  Birth Year     Month Day_Of_Week
+17  2017-06-23 21:21:59 2017-06-23 21:30:45            525         E 2 St & Avenue C           E 11 St & 2 Ave  Subscriber  Female      1997.0      June      Friday
+25  2017-04-21 09:41:14 2017-04-21 09:48:36            441   Lexington Ave & E 63 St           1 Ave & E 68 St  Subscriber  Female      1965.0     April      Friday
+30  2017-04-21 18:09:21 2017-04-21 18:14:15            294   Grand St & Elizabeth St      Grand St & Greene St  Subscriber  Female      1995.0     April      Friday
+45  2017-05-19 08:51:19 2017-05-19 08:58:32            433        Broadway & W 56 St        E 47 St & Park Ave  Subscriber    Male      1979.0       May      Friday
+51  2017-06-16 13:15:20 2017-06-16 13:20:44            324        Broadway & W 36 St     E 41 St & Madison Ave  Subscriber    Male      1992.0      June      Friday
+72  2017-01-20 19:01:02 2017-01-20 19:06:32            330  Stanton St & Chrystie St  MacDougal St & Prince St  Subscriber    Male      1983.0   January      Friday
+78  2017-05-19 13:50:41 2017-05-19 14:02:14            692   Centre St & Chambers St   Centre St & Chambers St    Customer     NaN         NaN       May      Friday
+80  2017-02-24 19:50:28 2017-02-24 20:16:20           1551       Reade St & Broadway        E 10 St & Avenue A  Subscriber    Male      1991.0  February      Friday
+99  2017-03-10 08:27:48 2017-03-10 08:32:02            253      E 24 St & Park Ave S        Broadway & E 14 St  Subscriber    Male      1973.0     March      Friday
+107 2017-06-23 12:01:36 2017-06-23 12:40:38           2341    Central Park S & 6 Ave           9 Ave & W 22 St    Customer     NaN         NaN      June      Friday
+
+Would you like to restart? Enter yes or no.
+no
+
+(base) C:\Users\USER\Desktop\Datasets\Capstone Project\Explore US Bikeshare Data>
